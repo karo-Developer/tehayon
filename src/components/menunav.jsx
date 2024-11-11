@@ -158,11 +158,16 @@ const Menunav = () => {
       )}
 
       {/* Mobile View: Toggle visibility */}
-      {isMobile && (
+      {/* {isMobile && (
         <div className={`mobile:flex flex-col ${isOpen ? 'flex' : 'hidden'}`}>
           <Llinks />
         </div>
-      )}
+      )} */}
+      {isMobile && (
+  <div className={`flex flex-col ${isOpen ? 'flex' : 'hidden'}`}>
+    <Llinks />
+  </div>
+)}
 
       {/* Menu Toggle Button for Mobile */}
       {isMobile && (
