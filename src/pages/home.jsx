@@ -104,16 +104,11 @@ const Home = () => {
 
 
         <div className=''>
-          <span className='text-white p-5 cursor-pointer hover:border-b-4 border-white transition-all'> 
-          <Link to="/gallery">Gallery</Link>
-
-          </span>
-          <span className='text-white p-5 cursor-pointer hover:border-b-4 border-white transition-all'>           <Link to="/contact">Contact</Link>
-          </span>
-          <span className='text-white p-5 cursor-pointer hover:border-b-4 border-white transition-all'>           <Link to="/contact">Contact</Link>
-          </span>
-          <span className='text-white p-5 cursor-pointer hover:border-b-4 border-white transition-all'>           <Link to="/about">about</Link>
-          </span>
+          <span className='text-white p-5 cursor-pointer hover:border-b-4 border-white transition-all'>   <Link to="/">Home</Link></span>
+          <span className='text-white p-5 cursor-pointer hover:border-b-4 border-white transition-all'>   <Link to="/">Home</Link></span>
+          <span className='text-white p-5 cursor-pointer hover:border-b-4 border-white transition-all'>   <Link to="/">Home</Link></span>
+          <Link to="/contact">Contact</Link>
+          <span className='text-white p-5 cursor-pointer hover:border-b-4 border-white transition-all'>   <Link to="/">Home</Link> </span>
 
         </div>
 
