@@ -107,7 +107,6 @@ const Home = () => {
           <span className='text-white p-5 cursor-pointer hover:border-b-4 border-white transition-all'> <a href="http://localhost:5173/gallery">Gallery</a></span>
           <span className='text-white p-5 cursor-pointer hover:border-b-4 border-white transition-all'> <a href="http://localhost:5173/contact">Contact</a></span>
           <span className='text-white p-5 cursor-pointer hover:border-b-4 border-white transition-all'> <a href="http://localhost:5173/contact">Mail</a></span>
-          <Link to="/contact">Contact</Link>
           <span className='text-white p-5 cursor-pointer hover:border-b-4 border-white transition-all'> <a href="http://localhost:5173/about"> Service</a> </span>
 
         </div>
