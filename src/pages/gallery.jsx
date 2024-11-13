@@ -163,6 +163,7 @@ import React, { useState, useEffect } from 'react';
 import { BsChevronCompactLeft, BsChevronCompactRight } from 'react-icons/bs';
 import slides, { img09, img097, img10, img123, img24, img6, img65, img65p, img678 } from '../assets';
 import Header from '../components/header';
+import { Link } from 'react-router-dom';
 const Gallery = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
@@ -328,16 +329,16 @@ const Gallery = () => {
       <div className="w-full h-20 bg-lime-600 pt-10 flex justify-evenly">
         <div>
           <span className="text-white p-5 cursor-pointer hover:border-b-4 border-white transition-all">
-            <a href="http://localhost:5173/gallery">Gallery</a>
+            <Link to="/gallery">Gallery</Link>
           </span>
           <span className="text-white p-5 cursor-pointer hover:border-b-4 border-white transition-all">
-            <a href="http://localhost:5173/contact">Contact</a>
+            <Link to="/contact">Contact</Link>
           </span>
           <span className="text-white p-5 cursor-pointer hover:border-b-4 border-white transition-all">
-            <a href="http://localhost:5173/contact">Mail</a>
+            <Link to="/contact">Mail</Link>
           </span>
           <span className="text-white p-5 cursor-pointer hover:border-b-4 border-white transition-all">
-            <a href="http://localhost:5173/about">Service</a>
+            <Link to="/about">Service</Link>
           </span>
         </div>
       </div>

@@ -2,6 +2,7 @@ import React from 'react'
 import { ContacTracing, logoteyahon } from '../assets'
 import { HiMenu, HiX } from 'react-icons/hi'
 import Header from '../components/header'
+import { Link } from 'react-router-dom'
 
 const Contact = () => {
   // const [isOpen, setIsOpen] = useState(false);
@@ -78,13 +79,13 @@ const Contact = () => {
   <br />
   <span className='text-xl desktop:laptop:items-start mobile:tablet:items-center'>
   <span className='text-black p-5 cursor-pointer hover:border-b-4 border-lime-600 transition-all'>
-      <a href="http://localhost:5173/gallery">Gallery</a>
+      <Link to="/gallery">Gallery</Link>
     </span>
     <br />
     <br />
     
     <span className='text-black p-5 cursor-pointer hover:border-b-4 border-lime-600 transition-all'>
-      <a href="http://localhost:5173/about">About</a>
+      <Link to="/about">About</Link>
     </span>
   </span>
   <br />
@@ -92,7 +93,7 @@ const Contact = () => {
 <br />
   
   <button className='bg-lime-600 p-2  text-white pl-5 pr-5 ml-5 items-center hover:bg-lime-700 hover:font-bold hover:rounded-lg'>
-   <a href='http://localhost:5173/'>Widget</a>
+   <Link to='/'>Widget</Link>
     
   </button>
   

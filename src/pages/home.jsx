@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { beardFriut, cassava, logoteyahon, plants } from '../assets'
 import Header from '../components/header'
+import { Link } from 'react-router-dom'
 
 
 const Home = () => {
@@ -99,21 +100,27 @@ const Home = () => {
       </div>
 
 
-      <div className='w-full h-20 bg-lime-600 pt-10 flex justify-evenly '>
-
-
-
-        <div className=''>
-          <span className='text-white p-5 cursor-pointer hover:border-b-4 border-white transition-all'> <a href="http://localhost:5173/gallery">Gallery</a></span>
-          <span className='text-white p-5 cursor-pointer hover:border-b-4 border-white transition-all'> <a href="http://localhost:5173/contact">Contact</a></span>
-          <span className='text-white p-5 cursor-pointer hover:border-b-4 border-white transition-all'> <a href="http://localhost:5173/contact">Mail</a></span>
-          <span className='text-white p-5 cursor-pointer hover:border-b-4 border-white transition-all'> <a href="http://localhost:5173/about"> Service</a> </span>
-
+     <div className="w-full h-20 bg-lime-600 pt-10 flex justify-evenly">
+        <div>
+          <span className="text-white p-5 cursor-pointer hover:border-b-4 border-white transition-all">
+            <Link to="/gallery">Gallery</Link>
+          </span>
+          <span className="text-white p-5 cursor-pointer hover:border-b-4 border-white transition-all">
+            <Link to="/contact">Contact</Link>
+          </span>
+          <span className="text-white p-5 cursor-pointer hover:border-b-4 border-white transition-all">
+            <Link to="/contact">Mail</Link>
+          </span>
+          <span className="text-white p-5 cursor-pointer hover:border-b-4 border-white transition-all">
+            <Link to="/about">Service</Link>
+          </span>
         </div>
-
-
       </div>
-  <div className='text-white w-full h-20 bg-lime-600 p-5 text-center'> <br />This is @Copyright 2024</div>
+
+      <div className="text-white w-full h-20 bg-lime-600 p-5 text-center">
+        <br />
+        This is @Copyright 2024
+      </div>
 
 
   
